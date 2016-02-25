@@ -39,6 +39,10 @@ namespace _2015_3003_1BIM_ListaEncadeada
          
     
         }
+        private void RemoveToValue(object sender, EventArgs e)
+        {
+            lista.RemoveValue(int.Parse(textBox2.Text));
+        }
 
        
 
