@@ -98,6 +98,29 @@ namespace _2015_3003_1BIM_ListaEncadeada
                 Primeiro = Primeiro.Proximo;
             }
         }
+        public void TrocarPosition(int i1, int i2)
+        {
+            int i = 0;
+            Elemento actual = Primeiro;
+            Elemento element1 = null;
+            while (actual.Proximo != null)
+            {
+
+                if (i1 == i)
+                {
+                    element1 = actual;
+                }
+                else if (i2 == i)
+                {
+                    int v = element1.Valor;
+
+                    element1.Valor = actual.Valor;
+                    actual.Valor = v;
+                }
+                actual = actual.Proximo;
+                i++;
+            }
+        }
        
         public int Count
         {

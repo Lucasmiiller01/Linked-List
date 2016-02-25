@@ -48,6 +48,11 @@ namespace _2015_3003_1BIM_ListaEncadeada
         {
             lista.Remove(int.Parse(textBox1.Text));
         }
+        private void TrocarPos(object sender, EventArgs e)
+        {
+            lista.TrocarPosition(int.Parse(textBox3.Text), int.Parse(textBox4.Text));
+        }
+
 
         
     }
