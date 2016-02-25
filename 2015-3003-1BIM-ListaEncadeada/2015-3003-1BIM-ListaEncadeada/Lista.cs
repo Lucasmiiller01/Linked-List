@@ -79,6 +79,25 @@ namespace _2015_3003_1BIM_ListaEncadeada
                 Primeiro = Primeiro.Proximo;
             }
         }
+        public void Remove(int index)
+        {
+            Elemento a = Primeiro;
+            Elemento b = null;
+            if (index != 0)
+            {
+                for (int i = 0; i < index; i++)
+                {
+                    b = a;
+                    a = a.Proximo;
+                }
+                if (a.Proximo != null) b.Proximo = a.Proximo;
+                else b.Proximo = null;
+            }
+            else
+            {
+                Primeiro = Primeiro.Proximo;
+            }
+        }
        
         public int Count
         {

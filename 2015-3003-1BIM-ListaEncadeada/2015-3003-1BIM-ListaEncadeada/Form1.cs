@@ -44,7 +44,10 @@ namespace _2015_3003_1BIM_ListaEncadeada
             lista.RemoveValue(int.Parse(textBox2.Text));
         }
 
-       
+        private void RemoveToPosition(object sender, EventArgs e)
+        {
+            lista.Remove(int.Parse(textBox1.Text));
+        }
 
         
     }
