@@ -79,6 +79,25 @@ namespace _2015_3003_1BIM_ListaEncadeada
                 Primeiro = Primeiro.Proximo;
             }
         }
+        public void Inserir(int index, Elemento value)
+        {
+            Elemento elemento = new Elemento(Count);
+            if (index == 0) Adiciona(elemento);
+            else if (Count - 1 == index) BuscaUltimo();
+            else
+            {
+                Elemento a = Primeiro;
+                Elemento b = null;
+                Elemento c = value;
+                for (int i = 0; i < index; i++)
+                {
+                    b = a;
+                    a = a.Proximo;
+                }
+                b.Proximo = c;
+                c.Proximo = a;
+            }
+        }
         public void Remove(int index)
         {
             Elemento a = Primeiro;

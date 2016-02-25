@@ -16,3 +16,5 @@ C:\Users\lucas.correa\Desktop\LucasMiillerListaEncadeada\2015-3003-1BIM-ListaEnc
 C:\Users\lucas.correa\Desktop\LucasMiillerListaEncadeada\2015-3003-1BIM-ListaEncadeada\2015-3003-1BIM-ListaEncadeada\obj\Debug\_2015_3003_1BIM_ListaEncadeada.Form1.resources
 C:\Users\lucas.correa\Desktop\LucasMiillerListaEncadeada\2015-3003-1BIM-ListaEncadeada\2015-3003-1BIM-ListaEncadeada\obj\Debug\_2015_3003_1BIM_ListaEncadeada.Properties.Resources.resources
 C:\Users\lucas.correa\Desktop\LucasMiillerListaEncadeada\2015-3003-1BIM-ListaEncadeada\2015-3003-1BIM-ListaEncadeada\obj\Debug\Lista-Encadeada-LucasMiiller.csproj.GenerateResource.Cache
+C:\Users\lucas.correa\Desktop\GitHub\Linked-List\2015-3003-1BIM-ListaEncadeada\2015-3003-1BIM-ListaEncadeada\bin\Debug\2015-3003-1BIM-ListaEncadeada.exe.config
+C:\Users\lucas.correa\Desktop\GitHub\Linked-List\2015-3003-1BIM-ListaEncadeada\2015-3003-1BIM-ListaEncadeada\obj\Debug\2015-3003-1BIM-ListaEncadeada.exe

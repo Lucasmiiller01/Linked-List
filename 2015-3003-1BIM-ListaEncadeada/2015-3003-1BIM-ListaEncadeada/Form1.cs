@@ -23,6 +23,12 @@ namespace _2015_3003_1BIM_ListaEncadeada
         {
             lista = new Lista();
         }
+        private void AdicionarPoX(object sender, EventArgs e)
+        {
+            Elemento elemento = new Elemento(lista.Count);
+            lista.Inserir(int.Parse(textBox6.Text), elemento);
+
+        }
 
       
 
