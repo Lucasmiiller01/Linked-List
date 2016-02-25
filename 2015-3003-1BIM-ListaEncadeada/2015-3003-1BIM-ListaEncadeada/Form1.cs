@@ -52,7 +52,11 @@ namespace _2015_3003_1BIM_ListaEncadeada
         {
             lista.TrocarPosition(int.Parse(textBox3.Text), int.Parse(textBox4.Text));
         }
-
+        private void AdicionarAposValor(object sender, EventArgs e)
+        {
+            Elemento elemento = new Elemento(lista.Count);
+            lista.AdicionarAposValor(int.Parse(textBox5.Text), elemento);
+        }
 
         
     }

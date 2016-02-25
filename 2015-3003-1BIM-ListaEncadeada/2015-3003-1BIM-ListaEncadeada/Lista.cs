@@ -121,6 +121,20 @@ namespace _2015_3003_1BIM_ListaEncadeada
                 i++;
             }
         }
+        public void AdicionarAposValor(int v, Elemento value)
+        {
+            Elemento a = Primeiro;
+            Elemento New = value;
+            while (a.Proximo != null)
+            {
+                if (a.Valor.Equals(v))
+                {
+                    New.Proximo = a.Proximo;
+                    a.Proximo = New;
+                }
+                a = a.Proximo;
+            }
+        }
        
         public int Count
         {
